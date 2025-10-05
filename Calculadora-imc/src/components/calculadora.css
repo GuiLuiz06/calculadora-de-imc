@@ -1,39 +1,67 @@
-#main-calc {
-    text-align: center;
-    margin-bottom: 2rem;
-    
-   
+#main-calc h2 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .form-inputs {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .controle-form {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin-bottom: 1rem;
-}
-
-.controle-form input {
-    padding: 1rem, 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1rem;
 }
 
 .controle-form label {
-    font-weight: bold;
-    margin-bottom: .6rem;
-    color: #000;
+  font-weight: bold;
+  color: #000;
+  width: 3vw;
+  height: 10vh;
 }
 
-#altura {
-    width: 15vw;
-    height: 5vh;
+.controle-form input {
+  padding: 1rem 0.5rem;
 }
-#peso {
-    width: 15vw;
-    height: 5vh;
+
+.button-action {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+#height {
+  width: 20.1vw;
+  height: 6vh;
+  border-radius: 10px;
+  border: none;
+}
+#weight {
+  width: 20.1vw;
+  height: 6vh;
+  border-radius: 10px;
+  border: none;
+}
+
+#calc-btn {
+    border-radius: 10px;
+}
+#calc-btn:hover {
+    background-color: greenyellow;
+    transition: 1s;
+}
+#clear-btn {
+    border-radius: 10px;
+}
+#clear-btn:hover {
+    background-color: rgb(102, 102, 102);
+    transition: 1s;
+}
+
+.button-action {
+  display: flex;
+  justify-content: space-between;
 }
