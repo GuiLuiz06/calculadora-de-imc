@@ -1,3 +1,4 @@
+import Botao from './Botao'
 import './calculadora.css'
 
 const calculadora = () => {
@@ -17,8 +18,8 @@ const calculadora = () => {
                 </div>
             </div>
             <div className="button-action">
-                <button>Calcular</button>
-                <button>Limpar</button>
+                <Botao id="calc-btn" text="Calcular"/>
+                <Botao id="clear-btn" text="Limpar"/>
             </div>
         </form>
     </div>
