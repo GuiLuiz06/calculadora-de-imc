@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import { data } from "./data/data";
-import Calculadora from "./components/calculadora.jsx";
+import Calculadora from "./components/Calculadora.jsx";
 import Social from "./components/Social.jsx";
 import { Logo } from "./components/Logo.jsx";
 import ImcInfo from "./components/ImcInfo.jsx";
