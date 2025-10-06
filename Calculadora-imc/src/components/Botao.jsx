@@ -1,7 +1,15 @@
-import './Botao.css'
+import "./Botao.css";
 
-const Botao = ({ id, text}) => {
-  return <button id={id}>{text}</button>
-}
+const Botao = ({ id, text, action }) => {
+  const limparForm = (e) => {
+    action(e);
+  };
 
-export default Botao
+  return (
+    <button id={id} onClick={limparForm}>
+      {text}
+    </button>
+  );
+};
+
+export default Botao;

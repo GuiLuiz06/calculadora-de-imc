@@ -15,10 +15,10 @@ const Social = () => {
         id="instagram"
         target="_blank"
       >
-        <i class="bi bi-instagram"></i>
+        <i className="bi bi-instagram"></i>
       </a>
       <a href="https://github.com/GuiLuiz06" id="github" target="_blank">
-        <i class="bi bi-github"></i>
+        <i className="bi bi-github"></i>
       </a>
     </div>
   );

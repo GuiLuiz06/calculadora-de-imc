@@ -7,12 +7,13 @@ button {
     opacity: 0.9;
     flex: 1;
 }
-button:hover {
-    opacity: 1;
-}
 #clear-btn {
     background-color: #fffefe;
 }
 #calc-btn {
     background-color: green;
+}
+#back-btn {
+    background-color: rgb(255, 36, 36);
+    border-radius: 10px;
 }
