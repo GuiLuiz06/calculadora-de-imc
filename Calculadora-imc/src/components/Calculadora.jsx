@@ -1,10 +1,10 @@
-import Botao from './Botao'
+import Botao from './Botao.jsx'
 
 import { useState } from 'react'
 
 import './calculadora.css'
 
-const calculadora = ({calcImc}) => {
+const Calculadora = ({calcImc}) => {
     const [height, setHeight] = useState("")
     const [weight, setWeight] = useState("")
 
@@ -53,4 +53,4 @@ const calculadora = ({calcImc}) => {
   )
 }
 
-export default calculadora
+export default Calculadora
