@@ -1,11 +1,16 @@
 import "./App.css";
 import { useState } from "react";
 import { data } from "./data/data";
-import Calculadora from "./components/calculadora";
-import Social from "./components/Social";
-import { Logo } from "./components/Logo";
-import ImcInfo from "./components/ImcInfo";
+import Calculadora from "./components/calculadora.jsx";
+import Social from "./components/Social.jsx";
+import { Logo } from "./components/Logo.jsx";
+import ImcInfo from "./components/ImcInfo.jsx";
+
 const App = () => {
+  const [imc, setImc] = useState("");
+  const [info, setInfo] = useState("");
+  const [infoClass, setInfoClass] = useState("");
+
   const calcImc = (e, height, weight) => {
     e.preventDefault();
 
@@ -24,21 +29,14 @@ const App = () => {
         setInfoClass(item.infoclass);
       }
     });
-
-    if (!info) return;
   };
 
   const resetCalc = (e) => {
-    e.preventDefault()
-
+    e.preventDefault();
     setImc("");
     setInfo("");
     setInfoClass("");
   };
-
-  const [imc, setImc] = useState("");
-  const [info, setInfo] = useState("");
-  const [infoClass, setInfoClass] = useState("");
 
   return (
     <>
