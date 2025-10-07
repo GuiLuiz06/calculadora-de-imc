@@ -34,3 +34,15 @@
   font-size: 50px; 
   color: #000000;
 }
+
+@media (min-width: 375px) and (max-width: 667px) {
+  .social-main .bi-github {
+    font-size: 45px;
+  }
+  .social-main .bi-instagram {
+    font-size: 45px;
+  }
+  .social-main .bi-linkedin {
+    font-size: 45px;
+  }
+}

@@ -5,6 +5,7 @@
 #imc-number {
   font-size: 2.4rem;
   margin-bottom: 0.6rem;
+  margin-top: -36px;
 }
 #imc-info {
   font-size: 1.4rem;
@@ -39,11 +40,11 @@
 }
 .table-header h4:nth-child(3),
 .table-data p:nth-child(3) {
-    max-width: 80px;
+    max-width: 100px;
 }
 
 .good {
-    color: #12db34;   
+    color: #0c9022;   
 }
 
 .low {
@@ -51,9 +52,36 @@
 }
 
 .medium {
-    color: #db6212;
+    color: #c35d18;
 }
 
 .high {
     color: #db1912;
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+  #result {
+    width: 80vw;
+    height: 58vh;
+    padding: 0.1rem;
+    padding-top: 20px;
+  }
+  #imc-table {
+    height: 39vh;
+  }
+  .table-data {
+    height: 6vh;
+  }
+  #imc-number {
+    height: 5vh;
+  }
+  #imc-info {
+    height: 3vh;
+  }
+  .table-header h4 {
+    height: 1vh;
+  }
+  #result h3 {
+    height: 1vh;
+  }
 }

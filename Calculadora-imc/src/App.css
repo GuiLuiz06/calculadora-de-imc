@@ -1,15 +1,28 @@
 .container {
-    min-height:450px;
-    min-width: 450px;
-    background-color: rgb(95, 170, 189);
-    padding: 2rem;
-    border-radius: 20px;
-    margin-top: 20px;
+  min-height: 450px;
+  min-width: 450px;
+  background-color: rgb(95, 170, 189);
+  padding: 2rem;
+  border-radius: 20px;
+  margin-top: 20px;
 }
 .social {
-    display: flex;
-    justify-content: center;
-    
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
+@media (min-width: 375px) and (max-width: 667px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .logo img {
+    width: 40vw;
+  }
+  .container {
+    min-height: 100%;
+    min-width: 100%;
+  }
+  
+}
