@@ -23,12 +23,20 @@ const App = () => {
 
     setImc(calculoImc);
 
+    let found = false;
+
     data.forEach((item) => {
       if (calculoImc >= item.min && calculoImc <= item.max) {
         setInfo(item.info);
         setInfoClass(item.infoclass);
+        found = true;
       }
     });
+    
+    if (!found && calculoImc > data[data.length - 1].max) {
+      setInfo("Obesidade extrema - Procure orientação médica");
+      setInfoClass("obesity-extreme");
+    }
   };
 
   const resetCalc = (e) => {

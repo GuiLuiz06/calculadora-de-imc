@@ -65,3 +65,12 @@
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 375px) and (max-width: 667px) {
+  #weight {
+    width: 62vw;
+  }
+  #height {
+    width: 62vw;
+  }
+  
+}

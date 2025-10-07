@@ -3,7 +3,7 @@ import './Logo.css'
 
 export const Logo = () => {
   return (
-    <div>
+    <div id='Logo'>
       <img src="./img/imc app.png" alt="Imagem de imc"/>
     </div>
   )
