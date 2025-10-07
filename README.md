@@ -1,32 +1,38 @@
-📊 Calculadora de IMC - React + Bootstrap
-Uma calculadora de Índice de Massa Corporal (IMC) desenvolvida em React com Bootstrap, oferecendo interface moderna, responsiva e acessível.
+📊 Calculadora de IMC - React + Bootstrap + Media Queries
+Uma calculadora de Índice de Massa Corporal (IMC) desenvolvida em React com Bootstrap e Media Queries customizadas, oferecendo uma experiência totalmente responsiva e adaptável a todos os dispositivos.
 
 ✨ Funcionalidades
-✅ Cálculo preciso do IMC - Fórmula padrão (peso/altura²)
 
-✅ Classificação automática - Identifica sua situação corporal
+✅ Cálculo preciso do IMC - Fórmula padrão (peso/altura²) com validação
 
-✅ Design responsivo - Bootstrap + media queries customizadas
+✅ Design totalmente responsivo - Bootstrap + Media Queries customizadas
 
-✅ Componentes Bootstrap - Cards, botões, grids e formulários
+✅ Otimização para mobile - Layout adaptado para telas pequenas
 
-✅ Interface acessível - Componentes semânticos e ARIA-friendly
+✅ Suporte a landscape - Media queries específicas para orientação horizontal
 
-✅ Feedback visual - Alertas e cores contextualizadas
+✅ Componentes Bootstrap - Cards, grids, tabelas e formulários responsivos
 
-✅ Tabela de referência - Componente table do Bootstrap
+✅ Breakpoints customizados - Pontos de quebra personalizados além do Bootstrap
 
-✅ Reset intuitivo - Volte para o início facilmente
+✅ Performance otimizada - Carregamento eficiente em todos os dispositivos
 
-🚀 Tecnologias Utilizadas
-React 
+✅ Acessibilidade - Componentes semânticos e ARIA-friendly
 
-Bootstrap 
+🚀 Stack Tecnológica
+Frontend Framework
+React 18.2.0 - Biblioteca principal
 
-JavaScript (ES6+)
+JavaScript ES6+ - Lógica da aplicação
 
-CSS3 (Customizado + Bootstrap)
+Estilização e Responsividade
+Bootstrap 5.3.0 - Framework CSS responsivo
 
-Vite (Build tool)
+Media Queries Customizadas - Breakpoints específicos
 
-Git & GitHub
+CSS3 Avançado - Flexbox, Grid, transformações
+
+Build e Desenvolvimento
+Vite - Build tool e dev server rápido
+
+Git - Controle de versão
