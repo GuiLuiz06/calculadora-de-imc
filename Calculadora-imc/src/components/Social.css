@@ -6,8 +6,7 @@
 .social-main {
     display: flex;
     align-items: center;
-    gap: 60px;
-    padding: 0 auto;
+    gap: 70px;
 }
 #instagram {   background: radial-gradient(
     circle at 30% 107%,

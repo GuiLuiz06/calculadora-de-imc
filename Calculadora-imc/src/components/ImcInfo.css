@@ -1,11 +1,14 @@
 #result {
   text-align: center;
   flex-direction: column;
+  width: 30vw;
+  height: 50vh;
+  margin-top: -6%;
 }
 #imc-number {
   font-size: 2.4rem;
   margin-bottom: 0.6rem;
-  margin-top: -36px;
+  margin-top: -22px;
 }
 #imc-info {
   font-size: 1.4rem;
@@ -18,12 +21,19 @@
 #imc-table {
   margin: 0.5rem;
   font-size: 1rem;
-  padding-top: 20px;
+  padding-top: 5px;
   margin-bottom: 30px;
   color: #000000;
 }
+
+#back-btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: -3%;
+}
 .table-header {
   font-weight: bold;
+  height: 3vh;
 }
 .table-header,
 .table-data {

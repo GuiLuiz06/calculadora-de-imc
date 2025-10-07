@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 import './calculadora.css'
 
-const Calculadora = ({calcImc}) => {
+const Calculadora = ({calcImc, customClass}) => {
     const [height, setHeight] = useState("")
     const [weight, setWeight] = useState("")
 
@@ -29,7 +29,7 @@ const Calculadora = ({calcImc}) => {
         setWeight(updatedValue)
     }
   return (
-    <div id="main-calc">
+    <div className={`main-calc ${customClass}`}> 
         <h2>Calculadora de imc</h2>
         <form id='form-imc'>
             <div className="form-inputs">

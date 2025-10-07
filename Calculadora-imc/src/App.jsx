@@ -53,7 +53,7 @@ const App = () => {
       </div>
       <div className="container">
         {!imc ? (
-          <Calculadora calcImc={calcImc} />
+          <Calculadora calcImc={calcImc} customClass="ajuste-calculadora" />
         ) : (
           <ImcInfo
             data={data}
@@ -61,11 +61,12 @@ const App = () => {
             info={info}
             infoClass={infoClass}
             resetCalc={resetCalc}
+            c
           />
         )}
-      </div>
-      <div className="social">
+        <div className="social">
         <Social />
+      </div>
       </div>
     </>
   );
