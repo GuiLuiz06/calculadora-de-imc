@@ -5,7 +5,7 @@
 #imc-number {
   font-size: 2.4rem;
   margin-bottom: 0.6rem;
-  margin-top: -36px;
+  margin-top: -30px;
 }
 #imc-info {
   font-size: 1.4rem;
@@ -18,9 +18,13 @@
 #imc-table {
   margin: 0.5rem;
   font-size: 1rem;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-bottom: 30px;
   color: #000000;
+}
+
+#back-btn {
+  margin-top: -1rem;
 }
 .table-header {
   font-weight: bold;
