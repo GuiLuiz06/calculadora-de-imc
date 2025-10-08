@@ -8,10 +8,20 @@ button {
     flex: 1;
 }
 #clear-btn {
-    background-color: #fffefe;
+    background-color: #FFFFFF;
+    color: #86349f;
+}
+#clear-btn:hover {
+    background-color: #e5e4e4;
+    transition: 2s;
 }
 #calc-btn {
-    background-color: green;
+    background-color: #673576;
+    color: #FFFFFF
+}
+#calc-btn:hover {
+    background-color: #3d2046;
+    transition: 2s;
 }
 #back-btn {
     background-color: rgb(255, 36, 36);

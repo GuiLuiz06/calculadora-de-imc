@@ -1,6 +1,6 @@
 #main-calc h2 {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .form-inputs {
@@ -24,6 +24,7 @@
 
 .controle-form input {
   padding: 1rem 0.5rem;
+  color: #7b1083;
 }
 
 .button-action {
@@ -48,18 +49,9 @@
 #calc-btn {
     border-radius: 10px;
 }
-#calc-btn:hover {
-    background-color: greenyellow;
-    transition: 1s;
-}
 #clear-btn {
     border-radius: 10px;
 }
-#clear-btn:hover {
-    background-color: rgb(102, 102, 102);
-    transition: 1s;
-}
-
 .button-action {
   display: flex;
   justify-content: space-between;
