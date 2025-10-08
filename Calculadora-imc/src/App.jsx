@@ -63,9 +63,9 @@ const App = () => {
             resetCalc={resetCalc}
           />
         )}
-        <div className="social">
-        <Social />
       </div>
+      <div className="social">
+        <Social />
       </div>
     </>
   );

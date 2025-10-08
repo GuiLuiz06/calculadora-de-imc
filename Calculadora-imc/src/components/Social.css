@@ -2,6 +2,7 @@
     text-decoration: none;
     color: inherit;
     display: inline;
+    margin-top: 2rem;
 }
 .social-main {
     display: flex;
@@ -24,7 +25,7 @@
 }
 .social-main .bi-linkedin {
   font-size: 50px;
-  color: #0c73ab;
+  color: #0c87ca;
 }
 .social-main .bi-instagram {
   font-size: 50px; 
@@ -32,7 +33,20 @@
 }
 .social-main .bi-github {
   font-size: 50px; 
-  color: #000000;
+  color: #ffffff;
+}
+.social-main .bi-linkedin:hover {
+  color: #0a608f; 
+  text-shadow: 0 0 4px; 
+  transition: 1s;
+}
+.social-main .bi-instagram:hover {
+  text-shadow: 0 0 43px;  
+}
+.social-main .bi-github:hover {
+  color: #333333; 
+  text-shadow: 0 0 1px; 
+  transition: 1s;
 }
 
 @media (min-width: 375px) and (max-width: 667px) {
