@@ -16,11 +16,11 @@ button {
     transition: 2s;
 }
 #calc-btn {
-    background-color: #673576;
+    background-color: #13b113;
     color: #FFFFFF
 }
 #calc-btn:hover {
-    background-color: #3d2046;
+    background-color: #1eff00;
     transition: 2s;
 }
 #back-btn {

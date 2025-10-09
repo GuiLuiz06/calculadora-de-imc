@@ -49,14 +49,59 @@
   transition: 1s;
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
+@media (max-width: 480px) {
   .social-main .bi-github {
-    font-size: 45px;
+    font-size: 60px;
   }
   .social-main .bi-instagram {
-    font-size: 45px;
+    font-size: 60px;
   }
   .social-main .bi-linkedin {
-    font-size: 45px;
+    font-size: 60px;
+  }
+  .social-main a {
+    margin-top: 10rem;
   }
 }
+@media (min-width: 481px) and (max-width: 767px) {
+  .social-main .bi-github {
+    font-size: 60px;
+  }
+  .social-main .bi-instagram {
+    font-size: 60px;
+  }
+  .social-main .bi-linkedin {
+    font-size: 60px;
+  }
+  .social-main a {
+    margin-top: 10rem;
+  }
+}@media (min-width: 768px) and (max-width: 1024px) {
+  .social-main .bi-github {
+    font-size: 60px;
+  }
+  .social-main .bi-instagram {
+    font-size: 60px;
+  }
+  .social-main .bi-linkedin {
+    font-size: 60px;
+  }
+  .social-main a {
+    margin-top: 10rem;
+  }
+}
+@media (min-width: 1025px) {
+  .social-main .bi-github {
+    font-size: 60px;
+  }
+  .social-main .bi-instagram {
+    font-size: 60px;
+  }
+  .social-main .bi-linkedin {
+    font-size: 60px;
+  }
+  .social-main a {
+    margin-top: 5rem;
+  }
+}
+

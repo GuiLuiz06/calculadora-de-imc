@@ -4,7 +4,7 @@
   background-color: rgba(255, 255, 255, 0.8)  ;
   padding: 2rem;
   border-radius: 20px;
-  margin-top: 1rem;
+  margin-top: -6rem;
 }
 .social {
   display: flex;
@@ -12,17 +12,4 @@
   margin-top: 20px;
 }
 
-@media (min-width: 375px) and (max-width: 667px) {
-  .logo {
-    display: flex;
-    justify-content: center;
-  }
-  .logo img {
-    width: 40vw;
-  }
-  .container {
-    min-height: 100%;
-    min-width: 100%;
-  }
-  
-}
+
