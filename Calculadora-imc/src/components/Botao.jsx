@@ -6,9 +6,11 @@ const Botao = ({ id, text, action }) => {
   };
 
   return (
-    <button id={id} onClick={limparForm}>
-      {text}
-    </button>
+    <div id="botao-media">
+      <button id={id} onClick={limparForm}>
+        {text}
+      </button>
+    </div>
   );
 };
 

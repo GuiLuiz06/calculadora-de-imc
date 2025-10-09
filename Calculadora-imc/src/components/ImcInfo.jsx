@@ -17,7 +17,7 @@ const ImcInfo = ({ data, imc, info, infoClass, resetCalc }) => {
         </div>
         {data.map((item) => (
           <div className="table-data" key={item.info}>
-            <p>{item.classification}</p>
+            <p id="first">{item.classification}</p>
             <p>{item.info}</p>
             <p>{item.obesity}</p>
           </div>
